@@ -1,0 +1,1021 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+idloc IDLOC 5 2000 2000 4 2 1
+end_init CODE 0 0 0 3 2 1
+config CONFIG 4 2007 2007 1 2 1
+$dist/default/production\lcd_4bits.X.production.o
+cinit CODE 0 7E6 7E6 1A 2 1
+idloc IDLOC 5 2000 2000 4 2 1
+text1 CODE 0 EA1 EA1 1F 2 1
+text2 CODE 0 FCF FCF 31 2 1
+text3 CODE 0 41 41 7 2 1
+text4 CODE 0 F9E F9E 31 2 1
+text5 CODE 0 5B9 5B9 F4 2 1
+text6 CODE 0 EC0 EC0 20 2 1
+text7 CODE 0 12A 12A 58 2 1
+text8 CODE 0 E50 E50 F 2 1
+text9 CODE 0 410 410 C5 2 1
+text10 CODE 0 F4C F4C 25 2 1
+text11 CODE 0 34F 34F C1 2 1
+text12 CODE 0 182 182 59 2 1
+text13 CODE 0 1DB 1DB 67 2 1
+text14 CODE 0 2AA 2AA A5 2 1
+text15 CODE 0 E87 E87 1A 2 1
+text16 CODE 0 8E 8E 49 2 1
+text17 CODE 0 EE0 EE0 22 2 1
+text18 CODE 0 E72 E72 15 2 1
+text19 CODE 0 4D5 4D5 E4 2 1
+text20 CODE 0 E2E E2E A 2 1
+text21 CODE 0 F71 F71 2D 2 1
+text22 CODE 0 E25 E25 9 2 1
+text23 CODE 0 E1C E1C 9 2 1
+text24 CODE 0 E43 E43 D 2 1
+text25 CODE 0 F27 F27 25 2 1
+text26 CODE 0 F02 F02 25 2 1
+text27 CODE 0 D7 D7 53 2 1
+text28 CODE 0 48 48 46 2 1
+text29 CODE 0 242 242 68 2 1
+maintext CODE 0 6AD 6AD 139 2 1
+cstackCOMMON COMMON 1 70 70 E 1 1
+cstackBANK0 BANK0 1 20 20 23 1 1
+inittext CODE 0 E5F E5F 13 2 1
+bssBANK0 BANK0 1 43 43 18 1 1
+idataBANK0 CODE 0 E38 E38 B 2 1
+strings STRING 0 3 3 3E 2 1
+dataBANK0 BANK0 1 5B 5B B 1 1
+clrtext CODE 0 E14 E14 8 2 1
+config CONFIG 4 2007 2007 1 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 66-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 66-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 800-E13 2
+CONST 1000-1FFF 2
+ENTRY 800-E13 2
+ENTRY 1000-1FFF 2
+CODE 800-E13 2
+CODE 1000-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE 800-E13 2
+STRCODE 1000-1FFF 2
+STRING 800-E13 2
+STRING 1000-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\lcd_4bits.X.production.o
+7E6 cinit CODE >633:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7E6 cinit CODE >636:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7E6 cinit CODE >758:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7E7 cinit CODE >759:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7E8 cinit CODE >760:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7E9 cinit CODE >761:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7EA cinit CODE >762:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7EB cinit CODE >763:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7EC cinit CODE >764:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7ED cinit CODE >765:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7EE cinit CODE >766:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7EF cinit CODE >767:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7F4 cinit CODE >786:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7F5 cinit CODE >787:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7F6 cinit CODE >788:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7F7 cinit CODE >789:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7FC cinit CODE >795:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7FC cinit CODE >797:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+7FD cinit CODE >798:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+242 text29 CODE >5:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+242 text29 CODE >13:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+24C text29 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+250 text29 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+254 text29 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+256 text29 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+257 text29 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+259 text29 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+260 text29 CODE >18:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+264 text29 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+268 text29 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+26A text29 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+271 text29 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+273 text29 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+277 text29 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+27B text29 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+27F text29 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+283 text29 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+286 text29 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+28A text29 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+28E text29 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+291 text29 CODE >24:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+292 text29 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+293 text29 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+299 text29 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+29B text29 CODE >27:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+2A1 text29 CODE >29:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+2A9 text29 CODE >30:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\__lldiv.c
+48 text28 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+48 text28 CODE >119:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+50 text28 CODE >121:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+54 text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+57 text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+58 text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+5A text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+5E text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+5F text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+61 text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+65 text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+66 text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+68 text28 CODE >122:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+6B text28 CODE >123:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+6D text28 CODE >123:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+74 text28 CODE >124:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+75 text28 CODE >124:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+7B text28 CODE >124:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+7D text28 CODE >125:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+81 text28 CODE >125:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+85 text28 CODE >128:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+8D text28 CODE >129:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul32.c
+D7 text27 CODE >12:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+D7 text27 CODE >14:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+DB text27 CODE >16:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+DF text27 CODE >17:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E2 text27 CODE >19:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+ED text27 CODE >19:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F3 text27 CODE >19:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+128 text27 CODE >20:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+129 text27 CODE >21:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F02 text26 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F02 text26 CODE >43:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F04 text26 CODE >45:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F08 text26 CODE >46:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F0A text26 CODE >46:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F0E text26 CODE >47:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F0F text26 CODE >47:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F13 text26 CODE >47:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F15 text26 CODE >48:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F16 text26 CODE >48:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F1A text26 CODE >48:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F1C text26 CODE >49:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F22 text26 CODE >52:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F26 text26 CODE >53:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+F27 text25 CODE >16:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+F27 text25 CODE >18:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+F47 text25 CODE >18:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+F4B text25 CODE >19:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+E43 text24 CODE >23:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E43 text24 CODE >25:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E4F text24 CODE >26:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E1C text23 CODE >28:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E1C text23 CODE >30:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E21 text23 CODE >31:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E24 text23 CODE >32:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E25 text22 CODE >36:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E25 text22 CODE >38:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E2A text22 CODE >39:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E2D text22 CODE >40:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F71 text21 CODE >48:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F71 text21 CODE >51:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F76 text21 CODE >52:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F79 text21 CODE >54:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F7E text21 CODE >55:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F87 text21 CODE >57:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F8C text21 CODE >58:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F98 text21 CODE >59:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F99 text21 CODE >61:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+F9D text21 CODE >62:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E2E text20 CODE >42:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E2E text20 CODE >44:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E33 text20 CODE >45:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+E37 text20 CODE >46:D:\work\Codes\lcd_4bits.X/PIC16F877a_I2C.h
+4D5 text19 CODE >41:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+4D5 text19 CODE >44:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+4DA text19 CODE >45:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+4E3 text19 CODE >46:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+4EB text19 CODE >47:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+4F0 text19 CODE >50:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+4F5 text19 CODE >51:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+4FE text19 CODE >52:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+516 text19 CODE >53:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+52E text19 CODE >54:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+546 text19 CODE >55:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+54F text19 CODE >56:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+567 text19 CODE >57:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+57F text19 CODE >58:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+597 text19 CODE >59:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+59C text19 CODE >62:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+5A1 text19 CODE >63:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+5AA text19 CODE >64:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+5B3 text19 CODE >65:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+5B8 text19 CODE >67:D:\work\Codes\lcd_4bits.X/PIC16F877a_DS3231.h
+E72 text18 CODE >4:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E73 text18 CODE >6:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E74 text18 CODE >43:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E78 text18 CODE >44:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E7C text18 CODE >45:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E7E text18 CODE >46:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E80 text18 CODE >47:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E85 text18 CODE >50:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+E86 text18 CODE >51:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8.c
+EE0 text17 CODE >127:D:\work\Codes\lcd_4bits.X\main.c
+EE1 text17 CODE >129:D:\work\Codes\lcd_4bits.X\main.c
+EE5 text17 CODE >130:D:\work\Codes\lcd_4bits.X\main.c
+EE9 text17 CODE >131:D:\work\Codes\lcd_4bits.X\main.c
+EE9 text17 CODE >132:D:\work\Codes\lcd_4bits.X\main.c
+EEC text17 CODE >134:D:\work\Codes\lcd_4bits.X\main.c
+EF0 text17 CODE >135:D:\work\Codes\lcd_4bits.X\main.c
+EF2 text17 CODE >136:D:\work\Codes\lcd_4bits.X\main.c
+EF2 text17 CODE >137:D:\work\Codes\lcd_4bits.X\main.c
+EF3 text17 CODE >139:D:\work\Codes\lcd_4bits.X\main.c
+EF7 text17 CODE >140:D:\work\Codes\lcd_4bits.X\main.c
+EF9 text17 CODE >141:D:\work\Codes\lcd_4bits.X\main.c
+EF9 text17 CODE >142:D:\work\Codes\lcd_4bits.X\main.c
+EFA text17 CODE >144:D:\work\Codes\lcd_4bits.X\main.c
+EFE text17 CODE >145:D:\work\Codes\lcd_4bits.X\main.c
+F00 text17 CODE >146:D:\work\Codes\lcd_4bits.X\main.c
+F00 text17 CODE >147:D:\work\Codes\lcd_4bits.X\main.c
+F01 text17 CODE >148:D:\work\Codes\lcd_4bits.X\main.c
+8E text16 CODE >216:D:\work\Codes\lcd_4bits.X\main.c
+8F text16 CODE >219:D:\work\Codes\lcd_4bits.X\main.c
+94 text16 CODE >220:D:\work\Codes\lcd_4bits.X\main.c
+99 text16 CODE >221:D:\work\Codes\lcd_4bits.X\main.c
+9C text16 CODE >222:D:\work\Codes\lcd_4bits.X\main.c
+9F text16 CODE >222:D:\work\Codes\lcd_4bits.X\main.c
+A2 text16 CODE >222:D:\work\Codes\lcd_4bits.X\main.c
+AA text16 CODE >223:D:\work\Codes\lcd_4bits.X\main.c
+AD text16 CODE >224:D:\work\Codes\lcd_4bits.X\main.c
+BA text16 CODE >225:D:\work\Codes\lcd_4bits.X\main.c
+BD text16 CODE >226:D:\work\Codes\lcd_4bits.X\main.c
+C3 text16 CODE >227:D:\work\Codes\lcd_4bits.X\main.c
+C6 text16 CODE >228:D:\work\Codes\lcd_4bits.X\main.c
+D3 text16 CODE >229:D:\work\Codes\lcd_4bits.X\main.c
+D6 text16 CODE >230:D:\work\Codes\lcd_4bits.X\main.c
+E87 text15 CODE >150:D:\work\Codes\lcd_4bits.X\main.c
+E88 text15 CODE >152:D:\work\Codes\lcd_4bits.X\main.c
+E8B text15 CODE >153:D:\work\Codes\lcd_4bits.X\main.c
+E91 text15 CODE >154:D:\work\Codes\lcd_4bits.X\main.c
+E94 text15 CODE >155:D:\work\Codes\lcd_4bits.X\main.c
+E9D text15 CODE >156:D:\work\Codes\lcd_4bits.X\main.c
+EA0 text15 CODE >157:D:\work\Codes\lcd_4bits.X\main.c
+2AA text14 CODE >159:D:\work\Codes\lcd_4bits.X\main.c
+2AB text14 CODE >162:D:\work\Codes\lcd_4bits.X\main.c
+2B0 text14 CODE >164:D:\work\Codes\lcd_4bits.X\main.c
+2B5 text14 CODE >165:D:\work\Codes\lcd_4bits.X\main.c
+2B8 text14 CODE >165:D:\work\Codes\lcd_4bits.X\main.c
+2BB text14 CODE >165:D:\work\Codes\lcd_4bits.X\main.c
+2C1 text14 CODE >166:D:\work\Codes\lcd_4bits.X\main.c
+2C6 text14 CODE >167:D:\work\Codes\lcd_4bits.X\main.c
+2CC text14 CODE >168:D:\work\Codes\lcd_4bits.X\main.c
+2D2 text14 CODE >169:D:\work\Codes\lcd_4bits.X\main.c
+2D3 text14 CODE >170:D:\work\Codes\lcd_4bits.X\main.c
+2D9 text14 CODE >172:D:\work\Codes\lcd_4bits.X\main.c
+2DE text14 CODE >173:D:\work\Codes\lcd_4bits.X\main.c
+2E1 text14 CODE >173:D:\work\Codes\lcd_4bits.X\main.c
+2E4 text14 CODE >173:D:\work\Codes\lcd_4bits.X\main.c
+2EA text14 CODE >174:D:\work\Codes\lcd_4bits.X\main.c
+2EF text14 CODE >175:D:\work\Codes\lcd_4bits.X\main.c
+2F5 text14 CODE >176:D:\work\Codes\lcd_4bits.X\main.c
+2FB text14 CODE >177:D:\work\Codes\lcd_4bits.X\main.c
+302 text14 CODE >179:D:\work\Codes\lcd_4bits.X\main.c
+307 text14 CODE >180:D:\work\Codes\lcd_4bits.X\main.c
+30A text14 CODE >180:D:\work\Codes\lcd_4bits.X\main.c
+30D text14 CODE >180:D:\work\Codes\lcd_4bits.X\main.c
+313 text14 CODE >181:D:\work\Codes\lcd_4bits.X\main.c
+318 text14 CODE >182:D:\work\Codes\lcd_4bits.X\main.c
+31E text14 CODE >183:D:\work\Codes\lcd_4bits.X\main.c
+324 text14 CODE >184:D:\work\Codes\lcd_4bits.X\main.c
+32B text14 CODE >186:D:\work\Codes\lcd_4bits.X\main.c
+330 text14 CODE >187:D:\work\Codes\lcd_4bits.X\main.c
+333 text14 CODE >187:D:\work\Codes\lcd_4bits.X\main.c
+336 text14 CODE >187:D:\work\Codes\lcd_4bits.X\main.c
+33C text14 CODE >188:D:\work\Codes\lcd_4bits.X\main.c
+341 text14 CODE >189:D:\work\Codes\lcd_4bits.X\main.c
+347 text14 CODE >190:D:\work\Codes\lcd_4bits.X\main.c
+34E text14 CODE >191:D:\work\Codes\lcd_4bits.X\main.c
+34E text14 CODE >193:D:\work\Codes\lcd_4bits.X\main.c
+1DB text13 CODE >5:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1DB text13 CODE >13:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1DC text13 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1E0 text13 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1E3 text13 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1E5 text13 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1E7 text13 CODE >18:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1EB text13 CODE >19:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1EE text13 CODE >19:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1F0 text13 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1F4 text13 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1F6 text13 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1FC text13 CODE >24:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1FE text13 CODE >25:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+1FF text13 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+200 text13 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+204 text13 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+206 text13 CODE >27:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+20A text13 CODE >25:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+20E text13 CODE >30:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+20F text13 CODE >30:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+213 text13 CODE >30:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+215 text13 CODE >31:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+217 text13 CODE >31:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+21B text13 CODE >31:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+21F text13 CODE >32:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+222 text13 CODE >32:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+225 text13 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+226 text13 CODE >35:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+227 text13 CODE >35:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+22B text13 CODE >35:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+22D text13 CODE >36:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+233 text13 CODE >38:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+238 text13 CODE >39:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+23B text13 CODE >39:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+23D text13 CODE >40:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+241 text13 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awdiv.c
+182 text12 CODE >5:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+182 text12 CODE >12:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+183 text12 CODE >13:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+187 text12 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+18A text12 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+18C text12 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+18E text12 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+192 text12 CODE >18:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+195 text12 CODE >18:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+197 text12 CODE >19:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+19D text12 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+19F text12 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1A0 text12 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1A1 text12 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1A5 text12 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1A7 text12 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1AB text12 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1AF text12 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1B1 text12 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1B5 text12 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1B9 text12 CODE >27:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1BC text12 CODE >27:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1BF text12 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1C0 text12 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1C4 text12 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1C6 text12 CODE >29:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1CC text12 CODE >31:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1D1 text12 CODE >32:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1D4 text12 CODE >32:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1D6 text12 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+1DA text12 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\awmod.c
+34F text11 CODE >300:D:\work\Codes\lcd_4bits.X\main.c
+34F text11 CODE >301:D:\work\Codes\lcd_4bits.X\main.c
+364 text11 CODE >302:D:\work\Codes\lcd_4bits.X\main.c
+377 text11 CODE >303:D:\work\Codes\lcd_4bits.X\main.c
+38A text11 CODE >304:D:\work\Codes\lcd_4bits.X\main.c
+39D text11 CODE >305:D:\work\Codes\lcd_4bits.X\main.c
+3B0 text11 CODE >306:D:\work\Codes\lcd_4bits.X\main.c
+3C3 text11 CODE >308:D:\work\Codes\lcd_4bits.X\main.c
+3CD text11 CODE >309:D:\work\Codes\lcd_4bits.X\main.c
+3D6 text11 CODE >310:D:\work\Codes\lcd_4bits.X\main.c
+3DF text11 CODE >311:D:\work\Codes\lcd_4bits.X\main.c
+3E5 text11 CODE >312:D:\work\Codes\lcd_4bits.X\main.c
+3EE text11 CODE >313:D:\work\Codes\lcd_4bits.X\main.c
+3F7 text11 CODE >314:D:\work\Codes\lcd_4bits.X\main.c
+3FD text11 CODE >315:D:\work\Codes\lcd_4bits.X\main.c
+406 text11 CODE >316:D:\work\Codes\lcd_4bits.X\main.c
+40F text11 CODE >317:D:\work\Codes\lcd_4bits.X\main.c
+F4C text10 CODE >232:D:\work\Codes\lcd_4bits.X\main.c
+F4D text10 CODE >235:D:\work\Codes\lcd_4bits.X\main.c
+F50 text10 CODE >236:D:\work\Codes\lcd_4bits.X\main.c
+F5F text10 CODE >236:D:\work\Codes\lcd_4bits.X\main.c
+F6C text10 CODE >236:D:\work\Codes\lcd_4bits.X\main.c
+F70 text10 CODE >237:D:\work\Codes\lcd_4bits.X\main.c
+410 text9 CODE >259:D:\work\Codes\lcd_4bits.X\main.c
+410 text9 CODE >261:D:\work\Codes\lcd_4bits.X\main.c
+425 text9 CODE >262:D:\work\Codes\lcd_4bits.X\main.c
+438 text9 CODE >263:D:\work\Codes\lcd_4bits.X\main.c
+44B text9 CODE >264:D:\work\Codes\lcd_4bits.X\main.c
+45E text9 CODE >265:D:\work\Codes\lcd_4bits.X\main.c
+471 text9 CODE >266:D:\work\Codes\lcd_4bits.X\main.c
+484 text9 CODE >269:D:\work\Codes\lcd_4bits.X\main.c
+48C text9 CODE >270:D:\work\Codes\lcd_4bits.X\main.c
+492 text9 CODE >271:D:\work\Codes\lcd_4bits.X\main.c
+49B text9 CODE >272:D:\work\Codes\lcd_4bits.X\main.c
+4A4 text9 CODE >273:D:\work\Codes\lcd_4bits.X\main.c
+4AA text9 CODE >274:D:\work\Codes\lcd_4bits.X\main.c
+4B3 text9 CODE >275:D:\work\Codes\lcd_4bits.X\main.c
+4BC text9 CODE >276:D:\work\Codes\lcd_4bits.X\main.c
+4C2 text9 CODE >277:D:\work\Codes\lcd_4bits.X\main.c
+4CB text9 CODE >278:D:\work\Codes\lcd_4bits.X\main.c
+4D4 text9 CODE >279:D:\work\Codes\lcd_4bits.X\main.c
+E50 text8 CODE >295:D:\work\Codes\lcd_4bits.X\main.c
+E50 text8 CODE >296:D:\work\Codes\lcd_4bits.X\main.c
+E58 text8 CODE >297:D:\work\Codes\lcd_4bits.X\main.c
+E5E text8 CODE >298:D:\work\Codes\lcd_4bits.X\main.c
+12A text7 CODE >281:D:\work\Codes\lcd_4bits.X\main.c
+12A text7 CODE >282:D:\work\Codes\lcd_4bits.X\main.c
+132 text7 CODE >283:D:\work\Codes\lcd_4bits.X\main.c
+138 text7 CODE >284:D:\work\Codes\lcd_4bits.X\main.c
+141 text7 CODE >285:D:\work\Codes\lcd_4bits.X\main.c
+14A text7 CODE >286:D:\work\Codes\lcd_4bits.X\main.c
+150 text7 CODE >287:D:\work\Codes\lcd_4bits.X\main.c
+159 text7 CODE >288:D:\work\Codes\lcd_4bits.X\main.c
+162 text7 CODE >289:D:\work\Codes\lcd_4bits.X\main.c
+168 text7 CODE >290:D:\work\Codes\lcd_4bits.X\main.c
+16E text7 CODE >291:D:\work\Codes\lcd_4bits.X\main.c
+174 text7 CODE >292:D:\work\Codes\lcd_4bits.X\main.c
+181 text7 CODE >293:D:\work\Codes\lcd_4bits.X\main.c
+EC0 text6 CODE >386:D:\work\Codes\lcd_4bits.X\main.c
+EC0 text6 CODE >387:D:\work\Codes\lcd_4bits.X\main.c
+EC0 text6 CODE >388:D:\work\Codes\lcd_4bits.X\main.c
+EC6 text6 CODE >389:D:\work\Codes\lcd_4bits.X\main.c
+ECF text6 CODE >390:D:\work\Codes\lcd_4bits.X\main.c
+EDB text6 CODE >391:D:\work\Codes\lcd_4bits.X\main.c
+EDF text6 CODE >392:D:\work\Codes\lcd_4bits.X\main.c
+5B9 text5 CODE >319:D:\work\Codes\lcd_4bits.X\main.c
+5B9 text5 CODE >322:D:\work\Codes\lcd_4bits.X\main.c
+5C4 text5 CODE >323:D:\work\Codes\lcd_4bits.X\main.c
+5C8 text5 CODE >324:D:\work\Codes\lcd_4bits.X\main.c
+5CA text5 CODE >325:D:\work\Codes\lcd_4bits.X\main.c
+5CA text5 CODE >326:D:\work\Codes\lcd_4bits.X\main.c
+5D3 text5 CODE >327:D:\work\Codes\lcd_4bits.X\main.c
+5D7 text5 CODE >328:D:\work\Codes\lcd_4bits.X\main.c
+5D8 text5 CODE >333:D:\work\Codes\lcd_4bits.X\main.c
+5DD text5 CODE >334:D:\work\Codes\lcd_4bits.X\main.c
+5E1 text5 CODE >335:D:\work\Codes\lcd_4bits.X\main.c
+5E5 text5 CODE >336:D:\work\Codes\lcd_4bits.X\main.c
+5E7 text5 CODE >338:D:\work\Codes\lcd_4bits.X\main.c
+5EB text5 CODE >339:D:\work\Codes\lcd_4bits.X\main.c
+5EF text5 CODE >340:D:\work\Codes\lcd_4bits.X\main.c
+5F3 text5 CODE >343:D:\work\Codes\lcd_4bits.X\main.c
+5F5 text5 CODE >343:D:\work\Codes\lcd_4bits.X\main.c
+5F9 text5 CODE >345:D:\work\Codes\lcd_4bits.X\main.c
+5FB text5 CODE >346:D:\work\Codes\lcd_4bits.X\main.c
+5FC text5 CODE >347:D:\work\Codes\lcd_4bits.X\main.c
+5FD text5 CODE >350:D:\work\Codes\lcd_4bits.X\main.c
+601 text5 CODE >351:D:\work\Codes\lcd_4bits.X\main.c
+605 text5 CODE >352:D:\work\Codes\lcd_4bits.X\main.c
+60E text5 CODE >352:D:\work\Codes\lcd_4bits.X\main.c
+610 text5 CODE >354:D:\work\Codes\lcd_4bits.X\main.c
+614 text5 CODE >355:D:\work\Codes\lcd_4bits.X\main.c
+618 text5 CODE >356:D:\work\Codes\lcd_4bits.X\main.c
+622 text5 CODE >356:D:\work\Codes\lcd_4bits.X\main.c
+629 text5 CODE >359:D:\work\Codes\lcd_4bits.X\main.c
+634 text5 CODE >360:D:\work\Codes\lcd_4bits.X\main.c
+63A text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+646 text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+64A text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+653 text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+657 text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+660 text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+664 text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+66D text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+671 text5 CODE >364:D:\work\Codes\lcd_4bits.X\main.c
+675 text5 CODE >365:D:\work\Codes\lcd_4bits.X\main.c
+677 text5 CODE >367:D:\work\Codes\lcd_4bits.X\main.c
+67C text5 CODE >368:D:\work\Codes\lcd_4bits.X\main.c
+67D text5 CODE >369:D:\work\Codes\lcd_4bits.X\main.c
+687 text5 CODE >370:D:\work\Codes\lcd_4bits.X\main.c
+68D text5 CODE >371:D:\work\Codes\lcd_4bits.X\main.c
+68E text5 CODE >372:D:\work\Codes\lcd_4bits.X\main.c
+68F text5 CODE >373:D:\work\Codes\lcd_4bits.X\main.c
+699 text5 CODE >374:D:\work\Codes\lcd_4bits.X\main.c
+69F text5 CODE >377:D:\work\Codes\lcd_4bits.X\main.c
+6AC text5 CODE >379:D:\work\Codes\lcd_4bits.X\main.c
+F9E text4 CODE >87:D:\work\Codes\lcd_4bits.X\main.c
+F9F text4 CODE >88:D:\work\Codes\lcd_4bits.X\main.c
+FA4 text4 CODE >89:D:\work\Codes\lcd_4bits.X\main.c
+FA5 text4 CODE >90:D:\work\Codes\lcd_4bits.X\main.c
+FA6 text4 CODE >91:D:\work\Codes\lcd_4bits.X\main.c
+FA7 text4 CODE >92:D:\work\Codes\lcd_4bits.X\main.c
+FB0 text4 CODE >93:D:\work\Codes\lcd_4bits.X\main.c
+FB3 text4 CODE >95:D:\work\Codes\lcd_4bits.X\main.c
+FB6 text4 CODE >95:D:\work\Codes\lcd_4bits.X\main.c
+FB9 text4 CODE >95:D:\work\Codes\lcd_4bits.X\main.c
+FBB text4 CODE >95:D:\work\Codes\lcd_4bits.X\main.c
+FBF text4 CODE >96:D:\work\Codes\lcd_4bits.X\main.c
+FC0 text4 CODE >97:D:\work\Codes\lcd_4bits.X\main.c
+FC1 text4 CODE >98:D:\work\Codes\lcd_4bits.X\main.c
+FC2 text4 CODE >99:D:\work\Codes\lcd_4bits.X\main.c
+FCB text4 CODE >100:D:\work\Codes\lcd_4bits.X\main.c
+FCE text4 CODE >101:D:\work\Codes\lcd_4bits.X\main.c
+41 text3 CODE >213:D:\work\Codes\lcd_4bits.X\main.c
+41 text3 CODE >214:D:\work\Codes\lcd_4bits.X\main.c
+47 text3 CODE >215:D:\work\Codes\lcd_4bits.X\main.c
+FCF text2 CODE >71:D:\work\Codes\lcd_4bits.X\main.c
+FD0 text2 CODE >72:D:\work\Codes\lcd_4bits.X\main.c
+FD5 text2 CODE >73:D:\work\Codes\lcd_4bits.X\main.c
+FD6 text2 CODE >74:D:\work\Codes\lcd_4bits.X\main.c
+FD7 text2 CODE >75:D:\work\Codes\lcd_4bits.X\main.c
+FD8 text2 CODE >76:D:\work\Codes\lcd_4bits.X\main.c
+FE1 text2 CODE >77:D:\work\Codes\lcd_4bits.X\main.c
+FE4 text2 CODE >79:D:\work\Codes\lcd_4bits.X\main.c
+FE7 text2 CODE >79:D:\work\Codes\lcd_4bits.X\main.c
+FEA text2 CODE >79:D:\work\Codes\lcd_4bits.X\main.c
+FEC text2 CODE >79:D:\work\Codes\lcd_4bits.X\main.c
+FF0 text2 CODE >80:D:\work\Codes\lcd_4bits.X\main.c
+FF1 text2 CODE >81:D:\work\Codes\lcd_4bits.X\main.c
+FF2 text2 CODE >82:D:\work\Codes\lcd_4bits.X\main.c
+FF3 text2 CODE >83:D:\work\Codes\lcd_4bits.X\main.c
+FFC text2 CODE >84:D:\work\Codes\lcd_4bits.X\main.c
+FFF text2 CODE >85:D:\work\Codes\lcd_4bits.X\main.c
+EA1 text1 CODE >119:D:\work\Codes\lcd_4bits.X\main.c
+EA1 text1 CODE >120:D:\work\Codes\lcd_4bits.X\main.c
+EA7 text1 CODE >121:D:\work\Codes\lcd_4bits.X\main.c
+EAD text1 CODE >122:D:\work\Codes\lcd_4bits.X\main.c
+EB3 text1 CODE >123:D:\work\Codes\lcd_4bits.X\main.c
+EB9 text1 CODE >124:D:\work\Codes\lcd_4bits.X\main.c
+EBF text1 CODE >125:D:\work\Codes\lcd_4bits.X\main.c
+6AD maintext CODE >394:D:\work\Codes\lcd_4bits.X\main.c
+6AD maintext CODE >396:D:\work\Codes\lcd_4bits.X\main.c
+6B0 maintext CODE >397:D:\work\Codes\lcd_4bits.X\main.c
+6B3 maintext CODE >398:D:\work\Codes\lcd_4bits.X\main.c
+6B6 maintext CODE >399:D:\work\Codes\lcd_4bits.X\main.c
+6B8 maintext CODE >400:D:\work\Codes\lcd_4bits.X\main.c
+6B9 maintext CODE >401:D:\work\Codes\lcd_4bits.X\main.c
+6BC maintext CODE >402:D:\work\Codes\lcd_4bits.X\main.c
+6C1 maintext CODE >404:D:\work\Codes\lcd_4bits.X\main.c
+6D0 maintext CODE >409:D:\work\Codes\lcd_4bits.X\main.c
+6DC maintext CODE >410:D:\work\Codes\lcd_4bits.X\main.c
+6E2 maintext CODE >411:D:\work\Codes\lcd_4bits.X\main.c
+6EE maintext CODE >412:D:\work\Codes\lcd_4bits.X\main.c
+6F4 maintext CODE >413:D:\work\Codes\lcd_4bits.X\main.c
+703 maintext CODE >414:D:\work\Codes\lcd_4bits.X\main.c
+708 maintext CODE >428:D:\work\Codes\lcd_4bits.X\main.c
+70D maintext CODE >429:D:\work\Codes\lcd_4bits.X\main.c
+712 maintext CODE >430:D:\work\Codes\lcd_4bits.X\main.c
+717 maintext CODE >431:D:\work\Codes\lcd_4bits.X\main.c
+71C maintext CODE >432:D:\work\Codes\lcd_4bits.X\main.c
+721 maintext CODE >433:D:\work\Codes\lcd_4bits.X\main.c
+726 maintext CODE >435:D:\work\Codes\lcd_4bits.X\main.c
+729 maintext CODE >437:D:\work\Codes\lcd_4bits.X\main.c
+734 maintext CODE >442:D:\work\Codes\lcd_4bits.X\main.c
+74A maintext CODE >443:D:\work\Codes\lcd_4bits.X\main.c
+75A maintext CODE >444:D:\work\Codes\lcd_4bits.X\main.c
+770 maintext CODE >445:D:\work\Codes\lcd_4bits.X\main.c
+780 maintext CODE >446:D:\work\Codes\lcd_4bits.X\main.c
+796 maintext CODE >447:D:\work\Codes\lcd_4bits.X\main.c
+7AC maintext CODE >448:D:\work\Codes\lcd_4bits.X\main.c
+7B4 maintext CODE >449:D:\work\Codes\lcd_4bits.X\main.c
+7B8 maintext CODE >450:D:\work\Codes\lcd_4bits.X\main.c
+7C6 maintext CODE >451:D:\work\Codes\lcd_4bits.X\main.c
+7C8 maintext CODE >451:D:\work\Codes\lcd_4bits.X\main.c
+7D1 maintext CODE >451:D:\work\Codes\lcd_4bits.X\main.c
+7D5 maintext CODE >451:D:\work\Codes\lcd_4bits.X\main.c
+7D9 maintext CODE >452:D:\work\Codes\lcd_4bits.X\main.c
+E14 clrtext CODE >773:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E14 clrtext CODE >774:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E15 clrtext CODE >775:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E15 clrtext CODE >776:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E16 clrtext CODE >777:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E17 clrtext CODE >778:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E18 clrtext CODE >779:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E19 clrtext CODE >780:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E1A clrtext CODE >781:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E1B clrtext CODE >782:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E5F inittext CODE >732:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E5F inittext CODE >733:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E60 inittext CODE >734:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E61 inittext CODE >735:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E62 inittext CODE >736:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E63 inittext CODE >743:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E63 inittext CODE >744:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E68 inittext CODE >745:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E69 inittext CODE >746:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E6A inittext CODE >747:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E6B inittext CODE >748:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E6C inittext CODE >749:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E6D inittext CODE >750:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E6E inittext CODE >751:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E6F inittext CODE >752:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E70 inittext CODE >753:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+E71 inittext CODE >754:C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+get_adc@ADC_Results 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__Hspace_0 1000 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 400F 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+_set_alarm 5A 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_get_controls B72 0 CODE 0 text5 dist/default/production\lcd_4bits.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_I2C_Begin 1C4A 0 CODE 0 text23 dist/default/production\lcd_4bits.X.production.o
+__end_of_I2C_Write 1C70 0 CODE 0 text20 dist/default/production\lcd_4bits.X.production.o
+Lcd_Print_String@a 79 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+Lcd_Print_String@i 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+main@i 40 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+_RCEN 48B 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+_byte 4D 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_hour 61 0 BANK0 1 dataBANK0 dist/default/production\lcd_4bits.X.production.o
+_jump 58 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_main D5A 0 CODE 0 maintext dist/default/production\lcd_4bits.X.production.o
+_year 5B 0 BANK0 1 dataBANK0 dist/default/production\lcd_4bits.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+start 0 0 CODE 0 init C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+_get_adc 1D80 0 CODE 0 text6 dist/default/production\lcd_4bits.X.production.o
+?___lmul 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+_I2C_Begin 1C38 0 CODE 0 text23 dist/default/production\lcd_4bits.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_I2C_Write 1C5C 0 CODE 0 text20 dist/default/production\lcd_4bits.X.production.o
+___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__end_of_lcd_clear 90 0 CODE 0 text3 dist/default/production\lcd_4bits.X.production.o
+_Lcd_Print_String 1E98 0 CODE 0 text10 dist/default/production\lcd_4bits.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+___bmul@multiplicand 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+display_current_date@year_0 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+display_current_date@year_1 21 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__end_of_Update_Current_Date_Time B72 0 CODE 0 text19 dist/default/production\lcd_4bits.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+display_current_date@month_0 22 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+display_current_date@month_1 23 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+_lcd_clear 82 0 CODE 0 text3 dist/default/production\lcd_4bits.X.production.o
+__end_of_get_controls D5A 0 CODE 0 text5 dist/default/production\lcd_4bits.X.production.o
+___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+_ADCON0 1F 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_ADCON1 9F 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_ADRESH 1E 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_ADRESL 9E 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__end_of_lcd_cmd 1F9E 0 CODE 0 text4 dist/default/production\lcd_4bits.X.production.o
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+_EECON1bits 18C 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+?_get_adc 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+_I2C_Hold 1C86 0 CODE 0 text24 dist/default/production\lcd_4bits.X.production.o
+_I2C_Read 1EE2 0 CODE 0 text21 dist/default/production\lcd_4bits.X.production.o
+__end_of_I2C_End 1C5C 0 CODE 0 text22 dist/default/production\lcd_4bits.X.production.o
+__end_of___bmul 1D0E 0 CODE 0 text18 dist/default/production\lcd_4bits.X.production.o
+__end_of___lmul 11C 0 CODE 0 text28 dist/default/production\lcd_4bits.X.production.o
+__end_of___wmul 1E4E 0 CODE 0 text26 dist/default/production\lcd_4bits.X.production.o
+_EECON2 18D 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_EEDATA 10C 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+lcd_data@data 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_I2C_Hold 1CA0 0 CODE 0 text24 dist/default/production\lcd_4bits.X.production.o
+__end_of_I2C_Read 1F3C 0 CODE 0 text21 dist/default/production\lcd_4bits.X.production.o
+___bmul@multiplier 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__end_of___awdiv 484 0 CODE 0 text13 dist/default/production\lcd_4bits.X.production.o
+__end_of___awmod 3B6 0 CODE 0 text12 dist/default/production\lcd_4bits.X.production.o
+__end_of___lldiv 554 0 CODE 0 text29 dist/default/production\lcd_4bits.X.production.o
+_OPTION_REG 81 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+___stacklo 0 0 ABS 0 - C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+_Lcd_Print_Char 11C 0 CODE 0 text16 dist/default/production\lcd_4bits.X.production.o
+Lcd_Print_Char@data 76 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+_Lcd_SetBit 1DC0 0 CODE 0 text17 dist/default/production\lcd_4bits.X.production.o
+display_current_date@day_0 24 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+display_current_date@day_1 25 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+Lcd_Set_Cursor@temp 7A 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__end_of_Lcd_Print_String 1EE2 0 CODE 0 text10 dist/default/production\lcd_4bits.X.production.o
+___lldiv@counter 2C 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+start_initialization FCC 0 CODE 0 cinit dist/default/production\lcd_4bits.X.production.o
+I2C_Read@incoming 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+_TRISCbits 87 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+___lldiv@dividend 24 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+_display_current_date 69E 0 CODE 0 text11 dist/default/production\lcd_4bits.X.production.o
+_display_current_time 820 0 CODE 0 text9 dist/default/production\lcd_4bits.X.production.o
+clear_ram0 1C28 0 CODE 0 clrtext dist/default/production\lcd_4bits.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+_SSPADD 93 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_SSPBUF 13 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_SSPCON 14 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_TRISC3 43B 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_TRISC4 43C 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_trigger_alarm 59 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+BCD_2_DEC@to_convert 76 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+__end_of_Lcd_Print_Char 1AE 0 CODE 0 text16 dist/default/production\lcd_4bits.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hidloc 4008 0 IDLOC 5 idloc -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 10 0 STRING 0 strings dist/default/production\lcd_4bits.X.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+main@Digits 3C 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+__end_of_Lcd_SetBit 1E04 0 CODE 0 text17 dist/default/production\lcd_4bits.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 4 config -
+?_BCD_2_DEC 76 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+main@newDigits 38 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit FCC 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 5 idloc -
+__Lstack 0 0 STACK 2 stack -
+__Linittext 0 0 ABS 0 inittext -
+_PORTCbits 7 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+___bmul 1CE4 0 CODE 0 text18 dist/default/production\lcd_4bits.X.production.o
+___lmul 90 0 CODE 0 text28 dist/default/production\lcd_4bits.X.production.o
+___wmul 1E04 0 CODE 0 text26 dist/default/production\lcd_4bits.X.production.o
+?_I2C_Read 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_PEN 48A 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RB0 30 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RB1 31 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RB2 32 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RB3 33 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RB4 34 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD0 40 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD1 41 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD2 42 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD3 43 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD4 44 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD5 45 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD6 46 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_RD7 47 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_SEN 488 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__S0 1000 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_day 5F 0 BANK0 1 dataBANK0 dist/default/production\lcd_4bits.X.production.o
+_min 63 0 BANK0 1 dataBANK0 dist/default/production\lcd_4bits.X.production.o
+_pos 65 0 BANK0 1 dataBANK0 dist/default/production\lcd_4bits.X.production.o
+_sec 4B 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_lcd_data 1F9E 0 CODE 0 text2 dist/default/production\lcd_4bits.X.production.o
+_lcd_init 1D42 0 CODE 0 text1 dist/default/production\lcd_4bits.X.production.o
+__end_of_display_stop_time 304 0 CODE 0 text7 dist/default/production\lcd_4bits.X.production.o
+__Lintentry 0 0 CODE 0 intentry -
+___lldiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+__end_of_display_relay_status 1CBE 0 CODE 0 text8 dist/default/production\lcd_4bits.X.production.o
+__stringtab 6 0 STRING 0 strings dist/default/production\lcd_4bits.X.production.o
+_hour_0 4F 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_hour_1 4E 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_lcd_cmd 1F3C 0 CODE 0 text4 dist/default/production\lcd_4bits.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\BTCOME~1\AppData\Local\Temp\xcAsi0c.o
+__pdataBANK0 5B 0 BANK0 1 dataBANK0 dist/default/production\lcd_4bits.X.production.o
+__end_of_Lcd_Cmd 1D42 0 CODE 0 text15 dist/default/production\lcd_4bits.X.production.o
+__end_of_lcd_data 2000 0 CODE 0 text2 dist/default/production\lcd_4bits.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__end_of_lcd_init 1D80 0 CODE 0 text1 dist/default/production\lcd_4bits.X.production.o
+_I2C_End 1C4A 0 CODE 0 text22 dist/default/production\lcd_4bits.X.production.o
+___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+I2C_Read@ack 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__ptext10 1E98 0 CODE 0 text10 dist/default/production\lcd_4bits.X.production.o
+__ptext11 69E 0 CODE 0 text11 dist/default/production\lcd_4bits.X.production.o
+__ptext12 304 0 CODE 0 text12 dist/default/production\lcd_4bits.X.production.o
+__ptext13 3B6 0 CODE 0 text13 dist/default/production\lcd_4bits.X.production.o
+__ptext14 554 0 CODE 0 text14 dist/default/production\lcd_4bits.X.production.o
+__ptext15 1D0E 0 CODE 0 text15 dist/default/production\lcd_4bits.X.production.o
+__ptext16 11C 0 CODE 0 text16 dist/default/production\lcd_4bits.X.production.o
+__ptext17 1DC0 0 CODE 0 text17 dist/default/production\lcd_4bits.X.production.o
+__ptext18 1CE4 0 CODE 0 text18 dist/default/production\lcd_4bits.X.production.o
+__ptext19 9AA 0 CODE 0 text19 dist/default/production\lcd_4bits.X.production.o
+__ptext20 1C5C 0 CODE 0 text20 dist/default/production\lcd_4bits.X.production.o
+__ptext21 1EE2 0 CODE 0 text21 dist/default/production\lcd_4bits.X.production.o
+__ptext22 1C4A 0 CODE 0 text22 dist/default/production\lcd_4bits.X.production.o
+__ptext23 1C38 0 CODE 0 text23 dist/default/production\lcd_4bits.X.production.o
+__ptext24 1C86 0 CODE 0 text24 dist/default/production\lcd_4bits.X.production.o
+__ptext25 1E4E 0 CODE 0 text25 dist/default/production\lcd_4bits.X.production.o
+__ptext26 1E04 0 CODE 0 text26 dist/default/production\lcd_4bits.X.production.o
+__ptext27 1AE 0 CODE 0 text27 dist/default/production\lcd_4bits.X.production.o
+__ptext28 90 0 CODE 0 text28 dist/default/production\lcd_4bits.X.production.o
+__ptext29 484 0 CODE 0 text29 dist/default/production\lcd_4bits.X.production.o
+___awdiv 3B6 0 CODE 0 text13 dist/default/production\lcd_4bits.X.production.o
+___awmod 304 0 CODE 0 text12 dist/default/production\lcd_4bits.X.production.o
+_Lcd_Set_Cursor 554 0 CODE 0 text14 dist/default/production\lcd_4bits.X.production.o
+___lldiv 484 0 CODE 0 text29 dist/default/production\lcd_4bits.X.production.o
+__pmaintext D5A 0 CODE 0 maintext dist/default/production\lcd_4bits.X.production.o
+___lmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__Hinittext 0 0 ABS 0 inittext -
+___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+Lcd_Print_Char@Lower_Nibble 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+main@value 42 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+_ADCON0bits 1F 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__end_of__stringtab 12 0 STRING 0 strings dist/default/production\lcd_4bits.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+lcd_cmd@cmd 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+init_fetch0 1CBE 0 CODE 0 inittext dist/default/production\lcd_4bits.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+I2C_Write@data 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+_PIR2bits D 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__Lend_init 0 0 CODE 0 end_init -
+__end_of_get_adc 1DC0 0 CODE 0 text6 dist/default/production\lcd_4bits.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\lcd_4bits.X.production.o
+__end_of_Lcd_Set_Cursor 69E 0 CODE 0 text14 dist/default/production\lcd_4bits.X.production.o
+__Hintentry 0 0 CODE 0 intentry -
+_Update_Current_Date_Time 9AA 0 CODE 0 text19 dist/default/production\lcd_4bits.X.production.o
+_display_stop_time 254 0 CODE 0 text7 dist/default/production\lcd_4bits.X.production.o
+Lcd_Set_Cursor@a 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+Lcd_Set_Cursor@b 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+Lcd_Set_Cursor@y 79 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+Lcd_Set_Cursor@z 78 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+?___awmod 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+?___lldiv 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec -
+_alarm_val 43 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+Lcd_SetBit@data_bit 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__ptext1 1D42 0 CODE 0 text1 dist/default/production\lcd_4bits.X.production.o
+__ptext2 1F9E 0 CODE 0 text2 dist/default/production\lcd_4bits.X.production.o
+__ptext3 82 0 CODE 0 text3 dist/default/production\lcd_4bits.X.production.o
+__ptext4 1F3C 0 CODE 0 text4 dist/default/production\lcd_4bits.X.production.o
+__ptext5 B72 0 CODE 0 text5 dist/default/production\lcd_4bits.X.production.o
+__ptext6 1D80 0 CODE 0 text6 dist/default/production\lcd_4bits.X.production.o
+__ptext7 254 0 CODE 0 text7 dist/default/production\lcd_4bits.X.production.o
+__ptext8 1CA0 0 CODE 0 text8 dist/default/production\lcd_4bits.X.production.o
+__ptext9 820 0 CODE 0 text9 dist/default/production\lcd_4bits.X.production.o
+Lcd_Print_Char@Upper_Nibble 75 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+I2C_Initialize@feq_K 2D 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\lcd_4bits.X.production.o
+___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__end_of_BCD_2_DEC 1E98 0 CODE 0 text25 dist/default/production\lcd_4bits.X.production.o
+Lcd_Cmd@a 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__pidataBANK0 1C70 0 CODE 0 idataBANK0 dist/default/production\lcd_4bits.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_I2C_Initialize 1AE 0 CODE 0 text27 dist/default/production\lcd_4bits.X.production.o
+___lmul@product 79 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+___lmul@multiplicand 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+___lldiv@quotient 28 0 BANK0 1 cstackBANK0 dist/default/production\lcd_4bits.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+_SSPCON2 91 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_SSPSTAT 94 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__Hend_init 6 0 CODE 0 end_init -
+init_ram0 1CC6 0 CODE 0 inittext dist/default/production\lcd_4bits.X.production.o
+_BCD_2_DEC 1E4E 0 CODE 0 text25 dist/default/production\lcd_4bits.X.production.o
+__end_of_main FCC 0 CODE 0 maintext dist/default/production\lcd_4bits.X.production.o
+__end_of_display_current_date 820 0 CODE 0 text11 dist/default/production\lcd_4bits.X.production.o
+__end_of_display_current_time 9AA 0 CODE 0 text9 dist/default/production\lcd_4bits.X.production.o
+_ACKDT 48D 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_ACKEN 48C 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_EEADR 10D 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_PORTD 8 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+_TRISD 88 0 ABS 0 - dist/default/production\lcd_4bits.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_min_0 51 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_min_1 50 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_month 5D 0 BANK0 1 dataBANK0 dist/default/production\lcd_4bits.X.production.o
+_sec_0 53 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_sec_1 52 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+_Lcd_Cmd 1D0E 0 CODE 0 text15 dist/default/production\lcd_4bits.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__initialization FCC 0 CODE 0 cinit dist/default/production\lcd_4bits.X.production.o
+___bmul@product 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__pbssBANK0 43 0 BANK0 1 bssBANK0 dist/default/production\lcd_4bits.X.production.o
+__pstrings 6 0 STRING 0 strings dist/default/production\lcd_4bits.X.production.o
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd_4bits.X.production.o
+__end_of_I2C_Initialize 254 0 CODE 0 text27 dist/default/production\lcd_4bits.X.production.o
+_display_relay_status 1CA0 0 CODE 0 text8 dist/default/production\lcd_4bits.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7E6 FCC 1A 2
+text1 0 EA1 1D42 1F 2
+text2 0 FCF 1F9E 31 2
+text3 0 41 82 7 2
+text4 0 F9E 1F3C 31 2
+text5 0 5B9 B72 F4 2
+text6 0 EC0 1D80 20 2
+text7 0 12A 254 58 2
+text8 0 E50 1CA0 F 2
+text9 0 410 820 C5 2
+text10 0 F4C 1E98 25 2
+text11 0 34F 69E C1 2
+text12 0 182 304 59 2
+text13 0 1DB 3B6 67 2
+text14 0 2AA 554 A5 2
+text15 0 E87 1D0E 1A 2
+text16 0 8E 11C 49 2
+text17 0 EE0 1DC0 22 2
+text18 0 E72 1CE4 15 2
+text19 0 4D5 9AA E4 2
+text20 0 E2E 1C5C A 2
+text21 0 F71 1EE2 2D 2
+text22 0 E25 1C4A 9 2
+text23 0 E1C 1C38 9 2
+text24 0 E43 1C86 D 2
+text25 0 F27 1E4E 25 2
+text26 0 F02 1E04 25 2
+text27 0 D7 1AE 53 2
+text28 0 48 90 46 2
+text29 0 242 484 68 2
+maintext 0 6AD D5A 139 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 46 1
+inittext 0 E5F 1CBE 13 2
+reset_vec 0 0 0 3 2
+idataBANK0 0 E38 1C70 B 2
+strings 0 3 6 3E 2
+clrtext 0 E14 1C28 8 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
